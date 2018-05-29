@@ -1,21 +1,28 @@
 {
-    "name": "gtakslist-desktop",
-    "version": "1.0.0",
-    "description": "A simple application for desktop to visualize your tasks on your desktop instead your phone.",
-    "main": "main.js",
-    "scripts": {
-      "start": "electron ."
-    },
-    "repository": "https://github.com/MiCLeal/GTaskList-Desktop",
-    "keywords": [
-      "gtask",
-      "task",
-      "desktop"
-    ],
-    "author": "Michael Anthony Leal Costa",
-    "license": "MIT",
-    "devDependencies": {
-      "electron": "~> 1.8.2-beta5"
-    }
-  }
-  
+  "name": "gtakslist-desktop",
+  "version": "1.0.0",
+  "description": "A simple application for desktop to visualize your tasks on your desktop instead your phone.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiCLeal/GTaskList-Desktop.git"
+  },
+  "keywords": [
+    "gtask",
+    "task",
+    "desktop"
+  ],
+  "author": "Michael Anthony Leal Costa",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "2.0.2"
+  },
+  "bugs": {
+    "url": "https://github.com/MiCLeal/GTaskList-Desktop/issues"
+  },
+  "homepage": "https://github.com/MiCLeal/GTaskList-Desktop#readme",
+  "dependencies": {}
+}
